@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA62AA6A210FCFB8004D0799 /* ConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA62AA69210FCFB8004D0799 /* ConditionViewController.swift */; };
+		FA62AA6C210FD0B6004D0799 /* CatDiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA62AA6B210FD0B6004D0799 /* CatDiceViewController.swift */; };
+		FA62AA6E210FD2D9004D0799 /* CatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA62AA6D210FD2D9004D0799 /* CatModel.swift */; };
+		FA62AA70210FDD8E004D0799 /* CustomTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA62AA6F210FDD8E004D0799 /* CustomTabController.swift */; };
 		FAA93A8D210CFF56009BAD0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA93A8C210CFF56009BAD0C /* AppDelegate.swift */; };
-		FAA93A8F210CFF56009BAD0C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA93A8E210CFF56009BAD0C /* FirstViewController.swift */; };
-		FAA93A91210CFF56009BAD0C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA93A90210CFF56009BAD0C /* SecondViewController.swift */; };
+		FAA93A8F210CFF56009BAD0C /* BasicInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA93A8E210CFF56009BAD0C /* BasicInfoViewController.swift */; };
+		FAA93A91210CFF56009BAD0C /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA93A90210CFF56009BAD0C /* StoryViewController.swift */; };
 		FAA93A94210CFF56009BAD0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA93A92210CFF56009BAD0C /* Main.storyboard */; };
 		FAA93A96210CFF58009BAD0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA93A95210CFF58009BAD0C /* Assets.xcassets */; };
 		FAA93A99210CFF58009BAD0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA93A97210CFF58009BAD0C /* LaunchScreen.storyboard */; };
 		FAA93AA4210CFF58009BAD0C /* CallOfCatthulhuCharacterSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA93AA3210CFF58009BAD0C /* CallOfCatthulhuCharacterSheetTests.swift */; };
 		FAA93AAF210CFF58009BAD0C /* CallOfCatthulhuCharacterSheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA93AAE210CFF58009BAD0C /* CallOfCatthulhuCharacterSheetUITests.swift */; };
+		FAFD92A021167D16005004E5 /* roll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAFD929F21167D16005004E5 /* roll.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA62AA69210FCFB8004D0799 /* ConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionViewController.swift; sourceTree = "<group>"; };
+		FA62AA6B210FD0B6004D0799 /* CatDiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDiceViewController.swift; sourceTree = "<group>"; };
+		FA62AA6D210FD2D9004D0799 /* CatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatModel.swift; sourceTree = "<group>"; };
+		FA62AA6F210FDD8E004D0799 /* CustomTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabController.swift; sourceTree = "<group>"; };
 		FAA93A89210CFF56009BAD0C /* CallOfCatthulhuCharacterSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallOfCatthulhuCharacterSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA93A8C210CFF56009BAD0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAA93A8E210CFF56009BAD0C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		FAA93A90210CFF56009BAD0C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FAA93A8E210CFF56009BAD0C /* BasicInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInfoViewController.swift; sourceTree = "<group>"; };
+		FAA93A90210CFF56009BAD0C /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
 		FAA93A93210CFF56009BAD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAA93A95210CFF58009BAD0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA93A98210CFF58009BAD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,7 @@
 		FAA93AAA210CFF58009BAD0C /* CallOfCatthulhuCharacterSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallOfCatthulhuCharacterSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA93AAE210CFF58009BAD0C /* CallOfCatthulhuCharacterSheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallOfCatthulhuCharacterSheetUITests.swift; sourceTree = "<group>"; };
 		FAA93AB0210CFF58009BAD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFD929F21167D16005004E5 /* roll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = roll.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +110,17 @@
 			isa = PBXGroup;
 			children = (
 				FAA93A8C210CFF56009BAD0C /* AppDelegate.swift */,
-				FAA93A8E210CFF56009BAD0C /* FirstViewController.swift */,
-				FAA93A90210CFF56009BAD0C /* SecondViewController.swift */,
+				FAA93A8E210CFF56009BAD0C /* BasicInfoViewController.swift */,
+				FAA93A90210CFF56009BAD0C /* StoryViewController.swift */,
 				FAA93A92210CFF56009BAD0C /* Main.storyboard */,
 				FAA93A95210CFF58009BAD0C /* Assets.xcassets */,
+				FAFD929F21167D16005004E5 /* roll.mp3 */,
 				FAA93A97210CFF58009BAD0C /* LaunchScreen.storyboard */,
 				FAA93A9A210CFF58009BAD0C /* Info.plist */,
+				FA62AA69210FCFB8004D0799 /* ConditionViewController.swift */,
+				FA62AA6B210FD0B6004D0799 /* CatDiceViewController.swift */,
+				FA62AA6D210FD2D9004D0799 /* CatModel.swift */,
+				FA62AA6F210FDD8E004D0799 /* CustomTabController.swift */,
 			);
 			path = CallOfCatthulhuCharacterSheet;
 			sourceTree = "<group>";
@@ -234,6 +249,7 @@
 			files = (
 				FAA93A99210CFF58009BAD0C /* LaunchScreen.storyboard in Resources */,
 				FAA93A96210CFF58009BAD0C /* Assets.xcassets in Resources */,
+				FAFD92A021167D16005004E5 /* roll.mp3 in Resources */,
 				FAA93A94210CFF56009BAD0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA93A91210CFF56009BAD0C /* SecondViewController.swift in Sources */,
+				FA62AA6E210FD2D9004D0799 /* CatModel.swift in Sources */,
+				FA62AA70210FDD8E004D0799 /* CustomTabController.swift in Sources */,
+				FAA93A91210CFF56009BAD0C /* StoryViewController.swift in Sources */,
 				FAA93A8D210CFF56009BAD0C /* AppDelegate.swift in Sources */,
-				FAA93A8F210CFF56009BAD0C /* FirstViewController.swift in Sources */,
+				FA62AA6A210FCFB8004D0799 /* ConditionViewController.swift in Sources */,
+				FA62AA6C210FD0B6004D0799 /* CatDiceViewController.swift in Sources */,
+				FAA93A8F210CFF56009BAD0C /* BasicInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
