@@ -1,0 +1,2 @@
+github "SwiftyJSON/SwiftyJSON" ~> 4.0
+github "Hearst-DD/ObjectMapper" ~> 3.3

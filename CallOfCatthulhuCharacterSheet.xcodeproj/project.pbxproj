@@ -20,6 +20,7 @@
 		FAA93AA4210CFF58009BAD0C /* CallOfCatthulhuCharacterSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA93AA3210CFF58009BAD0C /* CallOfCatthulhuCharacterSheetTests.swift */; };
 		FAA93AAF210CFF58009BAD0C /* CallOfCatthulhuCharacterSheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA93AAE210CFF58009BAD0C /* CallOfCatthulhuCharacterSheetUITests.swift */; };
 		FAFD92A021167D16005004E5 /* roll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAFD929F21167D16005004E5 /* roll.mp3 */; };
+		FAFD92A42116975E005004E5 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FAFD92A32116975E005004E5 /* Cartfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		FAA93AAE210CFF58009BAD0C /* CallOfCatthulhuCharacterSheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallOfCatthulhuCharacterSheetUITests.swift; sourceTree = "<group>"; };
 		FAA93AB0210CFF58009BAD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAFD929F21167D16005004E5 /* roll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = roll.mp3; sourceTree = "<group>"; };
+		FAFD92A32116975E005004E5 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		FAA93A80210CFF56009BAD0C = {
 			isa = PBXGroup;
 			children = (
+				FAFD92A32116975E005004E5 /* Cartfile */,
 				FAA93A8B210CFF56009BAD0C /* CallOfCatthulhuCharacterSheet */,
 				FAA93AA2210CFF58009BAD0C /* CallOfCatthulhuCharacterSheetTests */,
 				FAA93AAD210CFF58009BAD0C /* CallOfCatthulhuCharacterSheetUITests */,
@@ -247,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAFD92A42116975E005004E5 /* Cartfile in Resources */,
 				FAA93A99210CFF58009BAD0C /* LaunchScreen.storyboard in Resources */,
 				FAA93A96210CFF58009BAD0C /* Assets.xcassets in Resources */,
 				FAFD92A021167D16005004E5 /* roll.mp3 in Resources */,

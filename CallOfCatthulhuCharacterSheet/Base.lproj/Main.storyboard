@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Basic Info" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="132.33333333333337" y="20" width="149.66666666666663" height="43"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Info" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
+                                <rect key="frame" x="178.33333333333334" y="20" width="58" height="43"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="oHv-bv-PWa"/>
@@ -149,8 +149,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="GSX-BD-zkF"/>
-                    <navigationItem key="navigationItem" id="wsn-ax-3Qh"/>
+                    <tabBarItem key="tabBarItem" title="Info" selectedImage="second" id="GSX-BD-zkF"/>
+                    <navigationItem key="navigationItem" title="Info" id="wsn-ax-3Qh"/>
                     <connections>
                         <outlet property="backgroundField" destination="dWd-9u-OwC" id="SsY-qo-5xK"/>
                         <outlet property="catNameField" destination="j9B-qx-tGx" id="PLS-AL-1Jo"/>
@@ -197,8 +197,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="GVS-As-uBf"/>
-                    <navigationItem key="navigationItem" id="kzd-wP-Axp"/>
+                    <tabBarItem key="tabBarItem" title="Story" id="GVS-As-uBf"/>
+                    <navigationItem key="navigationItem" title="Story" id="kzd-wP-Axp"/>
                     <connections>
                         <outlet property="storyField" destination="Rks-ub-iSy" id="1vm-Mp-rg3"/>
                     </connections>
@@ -255,21 +255,21 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" sectionIndexMinimumDisplayRowCount="3" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HxZ-vc-Rrm">
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" sectionIndexMinimumDisplayRowCount="3" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HxZ-vc-Rrm">
                                                 <rect key="frame" x="0.0" y="20.333333333333329" width="364" height="129.66666666666669"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="130" id="FNg-fM-2Lq"/>
                                                 </constraints>
                                                 <prototypes>
-                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="placeCell" id="Ag5-Ep-YG5">
+                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="placeCell" id="YpM-BU-Pg0">
                                                         <rect key="frame" x="0.0" y="28" width="364" height="44"/>
                                                         <autoresizingMask key="autoresizingMask"/>
-                                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ag5-Ep-YG5" id="hs7-3P-d4J">
-                                                            <rect key="frame" x="0.0" y="0.0" width="364" height="43.666666666666664"/>
+                                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YpM-BU-Pg0" id="y9x-tj-MGh">
+                                                            <rect key="frame" x="0.0" y="0.0" width="364" height="44"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="placeCell" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PV2-N2-r79">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="placeCell" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbu-i4-NTK">
                                                                     <rect key="frame" x="141" y="10.5" width="0.0" height="0.0"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -383,8 +383,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="G8j-oV-vTv"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="hcI-ES-TjZ"/>
-                    <navigationItem key="navigationItem" id="D9j-nk-EDh"/>
+                    <tabBarItem key="tabBarItem" title="Condition" id="hcI-ES-TjZ"/>
+                    <navigationItem key="navigationItem" title="Condition" id="D9j-nk-EDh"/>
                     <connections>
                         <outlet property="injuriesStepper" destination="HAw-Fp-ohJ" id="TGJ-uu-se7"/>
                         <outlet property="injurysLabel" destination="wcb-gy-Vv3" id="f7x-Ix-4vz"/>
@@ -459,8 +459,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pHS-9k-HPU"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="mWv-WL-IpR"/>
-                    <navigationItem key="navigationItem" id="Jok-R1-TuE"/>
+                    <tabBarItem key="tabBarItem" title="Dice" id="mWv-WL-IpR"/>
+                    <navigationItem key="navigationItem" title="Dice" id="Jok-R1-TuE"/>
                     <connections>
                         <outlet property="catDiceImageOne" destination="qUn-5Y-Rvx" id="ie0-Fq-OsB"/>
                         <outlet property="catDiceImageTwo" destination="S3f-6I-ffB" id="kNr-m4-nth"/>
@@ -475,5 +475,6 @@
     <resources>
         <image name="happyCat" width="45" height="45"/>
         <image name="sadCat" width="45" height="45"/>
+        <image name="second" width="30" height="30"/>
     </resources>
 </document>
