@@ -26,8 +26,8 @@ class CatDiceViewController: UIViewController {
     
     private func setupImageViewAnimation() {
         catDiceImageOne.animationImages = [UIImage(named: "happyCat"), UIImage(named: "sadCat")] as? [UIImage]
-        catDiceImageOne.animationDuration = 0.4
-        catDiceImageTwo.animationImages = [UIImage(named: "happyCat"), UIImage(named: "sadCat")] as? [UIImage]
+        catDiceImageOne.animationDuration = 0.6
+        catDiceImageTwo.animationImages = [UIImage(named: "sadCat"), UIImage(named: "happyCat")] as? [UIImage]
         catDiceImageTwo.animationDuration = 0.4
     }
     
